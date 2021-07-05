@@ -1,0 +1,50 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: lightcoral;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+h1:hover{
+    color:blue;
+ font: size 54px; ;}
+
+ h2{
+     color:lightcoral;
+     font-family: 'Lobster', cursive;
+ }
+
+ p,li:hover{
+     color: lightcoral;
+ }
+
+
+p,li{
+    color:lightslategrey;
+    font-family: 'Lobster', cursive;
+    line-height: 3;
+    font-size:large;
+}
+
+img{
+    border-radius: 30%;
+}
+
+a:visited{ color: greenyellow;}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block{
+    background-color: blueviolet;
+    color: white;
+}
